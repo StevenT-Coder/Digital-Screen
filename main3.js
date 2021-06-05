@@ -15,7 +15,9 @@ function init(){
 	camera.position.y = -2.5;
 	
 	// 3) Providing rendering detail.
-	var canvas = document.querySelector('#c');	
+	var canvas = document.querySelector('#c');
+	canvas.width = window.innerWidth;
+	canvas.height = window.innerHeight;
 	var renderer = initRenderer(canvas);
 	
 	// 4) creat a cube	
