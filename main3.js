@@ -16,9 +16,10 @@ function init(){
 	
 	// 3) Providing rendering detail.
 	var canvas = document.querySelector('#c');
+	console.log(canvas);
 	canvas.width = window.innerWidth;
 	canvas.height = window.innerHeight;
-	console.log(canvas);
+	
 	var renderer = initRenderer(canvas);
 	
 	// 4) creat a cube	
