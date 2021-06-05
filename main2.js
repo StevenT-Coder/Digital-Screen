@@ -14,7 +14,9 @@ function init(){
 	camera.position.z = 4;
 	camera.position.y = -1;	
 	
-	var canvas = document.querySelector('#c');	
+	var canvas = document.querySelector('#c');
+	canvas.width = window.innerWidth;
+	canvas.height = window.innerHeight;
 	var renderer = new THREE.WebGLRenderer({canvas, alpha: true,});
 	renderer.setSize( window.innerWidth, window.innerHeight );
 	// renderer.setClearColor('rgb(120, 120, 120)');
