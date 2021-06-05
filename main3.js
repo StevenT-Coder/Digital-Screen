@@ -16,7 +16,7 @@ function init(){
 	
 	// 3) Providing rendering detail.
 	var canvas = document.querySelector('#c');
-	console.log(canvas);
+	console.log("hello");
 	canvas.width = window.innerWidth;
 	canvas.height = window.innerHeight;
 	
